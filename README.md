@@ -44,7 +44,7 @@ Throughout this project you will be creating a PokePortal, a mysterious realm wh
 
 #### Part 0: Setup PokePortal
 
-Clone the repo (TODO:URL) in your terminal. Cd into the directory and migrate your database, then start your server. In localhost, you should see an error that says: "uninitialized constant HomeController::Pokemon". This is expected; let's fix it.
+Clone the repo (git@github.com:rails-decal/railsdecal-proj1.git) in your terminal. Cd into the directory and migrate your database, then start your server. In localhost, you should see an error that says: "uninitialized constant HomeController::Pokemon". This is expected; let's fix it.
 
 In the [Google Form](https://docs.google.com/forms/d/1VhMa7Ml0PdLYEPztMRqoBMsHrJH3O_jiKSJoOKRBYlk/viewform?usp=send_form), answer Question 0.
 
