@@ -63,7 +63,7 @@ In `answers.txt`, answer Question 1.
 
 #### Part 2: Implement capturing Pokemon
 
-- In `views/home/index.html.erb`, replace the div button with the following code: `<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>`
+- In `views/home/index.html.erb`, replace the div button with the following code:```<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>```
 - In your Pokemon controller, add a function called `capture`. This function should:
   - Grab the id of the Pokemon from the parameters and set that Pokemon's trainer to be the current trainer logged in.
     - What's great about Devise (the user authentication gem we already have set up) is that it predefines a method to give us the current user logged in - or in this case, current trainer. To grab the current trainer, use `current_trainer`. You can use this in controllers and views.
@@ -85,8 +85,9 @@ In `answers.txt`, answer Question 3.
 
 #### Part 4: Implement the ability to damage other trainers' Pokemon
 
-- Make each Pokemon have health. Don't forget to migrate.
+- Make the Pokemon model have a health column as well.
   - Go into your `db/seeds.rb` file and make all seed Pokemon start out with 100 health.
+  - After you've changed the seeds, run `rake db:reset`. This command drops your database, creates a new one, runs all migrations, and seeds the database. Now you should have seeded Pokemon with health as well.
   - Show health for each Pokemon in the list on a Trainer's profile.
 - Based on Part 2, you should be able to mimic the capture method to implement a damage method.
   - Each damage should subtract 10 health from the Pokemon.
