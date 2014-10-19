@@ -42,7 +42,11 @@ Throughout this project you will be creating a PokePortal, a mysterious realm wh
 
 #### Part 0: Setup PokePortal
 
+<<<<<<< HEAD
 Clone the repo (TODO:URL) in your terminal. Cd into the directory and migrate your database, then start your server. In localhost, you should see an error that says: "uninitialized constant HomeController::Pokemon". This is expected; let's fix it.
+=======
+Clone the repo (TODO:URL) in your terminal. Cd into the directory and create the database. Then migrate the database and start your server. You should see an error that says: "uninitialized constant HomeController::Pokemon". This is good; let's fix it.
+>>>>>>> 50b752ba531cb2009de4ca7c348e395695d928a7
 
 In `answers.txt`, answer Question 0.
 
@@ -57,13 +61,21 @@ In `answers.txt`, answer Question 0.
 - Create a controller for your Pokemon model.
 - Create some starter Pokemon in the PokePortal with the seed file we've provided.
 
+<<<<<<< HEAD
 Go to localhost - you should be able to see the home page and sign up now. Once you've logged in and go back to the home page, some wild Pokemon should appear with every refresh, however you can't capture them!
+=======
+Go to localhost - you should now see some wild Pokemon appear with every refresh, however you can't capture them!
+>>>>>>> 50b752ba531cb2009de4ca7c348e395695d928a7
 
 In `answers.txt`, answer Question 1.
 
 #### Part 2: Implement capturing Pokemon
 
+<<<<<<< HEAD
 - In `views/home/index.html.erb`, replace the div button with the following code: `<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>`
+=======
+- Replace the div button with the following code: `<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>`
+>>>>>>> 50b752ba531cb2009de4ca7c348e395695d928a7
 - In your Pokemon controller, add a function called `capture`. This function should:
   - Grab the id of the Pokemon from the parameters and set that Pokemon's trainer to be the current trainer logged in.
     - What's great about Devise (the user authentication gem we already have set up) is that it predefines a method to give us the current user logged in - or in this case, current trainer. To grab the current trainer, use `current_trainer`. You can use this in controllers and views.
@@ -77,7 +89,11 @@ In `answers.txt`, answer Question 2.
 
 #### Part 3: View other trainers' Pokemon
 
+<<<<<<< HEAD
 - Figure out where in the app you can see a trainer's profile. In that view, add a list of the trainer's Pokemon. Each Pokemon should show its name and level.
+=======
+- Figure out where in the app you can see a trainer's profile. In that view, add a list of the trainer's Pokemon. Each Pokemon should show its name and level. This should be cake.
+>>>>>>> 50b752ba531cb2009de4ca7c348e395695d928a7
 
 On your localhost, you should now be able to view all your Pokemon in your profile!
 
@@ -130,11 +146,19 @@ In `answers.txt`, answer Question 5.
 
 **[+2% of final grade]** Implement Pokemon healing.
   - Increment health by 10.
+<<<<<<< HEAD
   - Your Pokemon should now be hidden when health is <= 0, instead of being destroyed.
   - You should be able to heal only your **own** Pokemon.
 
 **[+5% of final grade]** Implement Pokemon battling.
   - Right now, damaging is lame. Your Pokemon, not yourself, should damage other Pokemon. Make it so that when you click damage, you have to select one of your own Pokemon to gain experience from the attack, and level up!
+=======
+  - Your Pokemon should now be hidden when health is <= 0, instead of be destroyed.
+  - You should be able to heal only your **own** Pokemon.
+
+**[+5% of final grade]** Implement Pokemon battling.
+  - Right now, damaging is lame. Your Pokemon should damage other Pokemon, not yourself. Make it so that when you click damage, you have to select one of your own Pokemon to gain experience from the attack, and level up!
+>>>>>>> 50b752ba531cb2009de4ca7c348e395695d928a7
   - You should choose your Pokemon from a dropdown menu.
 
 #### Part 7: Submit your PokePortal
