@@ -184,7 +184,7 @@ For help with the redirect path, refer to [Lab 4](https://docs.google.com/a/berk
 
 [Lab 4](https://docs.google.com/a/berkeley.edu/document/d/1eRJ8uGfZNohrTnSZgrrFF7X3mvcHdztRhDrfKV1jf9E) goes over everything you need to know about forms and routing for forms. If you haven't already done it, we strongly recommend doing it before tackling Part 5.
 
-To flash the appropriate error, use the line ```flash[:error] = @pokemon.errors.full_messages.to_sentence```. This works because in ```views/layouts/application.html.erb```, it renders ```views/layouts/_messages.html.erb```. Take a look at that file and see what it is doing.
+To flash the appropriate error, use the line ```flash[:error] = @pokemon.errors.full_messages.to_sentence```. This works because in ```views/layouts/application.html.erb```, it is rendering something at the very end. Take a look at that file and see what it is doing. If you don't already know what ```application.html.erb``` does, you should Google it and understand its function. 
 
 #### Part 6: EXTRA CREDIT
 
