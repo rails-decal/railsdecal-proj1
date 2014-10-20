@@ -72,7 +72,7 @@ In the [Google Form](https://docs.google.com/forms/d/1VhMa7Ml0PdLYEPztMRqoBMsHrJ
   - Redirect to the home page
 - Create a new route in your routes file that will call the function you just wrote. Name the path ```capture``` as its prefix. Set the URI pattern to be "capture".
 
-On your localhost, you should now be able to capture Pokemon! Double check in your console.
+On your localhost, you should now be able to capture Pokemon! Double check in your console that a captured Pokemon now belongs to you.
 
 In the [Google Form](https://docs.google.com/forms/d/1VhMa7Ml0PdLYEPztMRqoBMsHrJH3O_jiKSJoOKRBYlk/viewform?usp=send_form), answer Question 2.
 
