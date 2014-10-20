@@ -128,15 +128,15 @@ In the [Google Form](https://docs.google.com/forms/d/1VhMa7Ml0PdLYEPztMRqoBMsHrJ
 
 #### Part 6: EXTRA CREDIT
 
-**[+1% of final grade]** Let friends join PokePortal.
-  - Deploy this app on Heroku.
+**[+1% of final course grade]** Let friends join PokePortal.
+  - Deploy this app on Heroku. Link the Heroku in the Google Form.
 
-**[+2% of final grade]** Implement Pokemon healing.
+**[+1% of final course grade]** Implement Pokemon healing.
   - Increment health by 10.
   - Your Pokemon should now be hidden when health is <= 0, instead of being destroyed.
   - You should be able to heal only your **own** Pokemon.
 
-**[+5% of final grade]** Implement Pokemon battling.
+**[+5% of final course grade]** Implement Pokemon battling.
   - Right now, damaging is lame. Your Pokemon, not yourself, should damage other Pokemon. Make it so that when you click damage, you have to select one of your own Pokemon to gain experience from the attack, and level up!
   - You should choose your Pokemon from a dropdown menu.
 
