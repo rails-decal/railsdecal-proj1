@@ -14,7 +14,6 @@
       - [Part 7: Submit your PokePortal](#part-7-submit-your-pokeportal)
   - [Hints](#hints)
       - [General](#general)
-      - [Part 0: Setup PokePortal](#part-0-setup-pokeportal-1)
       - [Part 1: Create the Pokemon model](#part-1-create-the-pokemon-model-1)
       - [Part 2: Implement capturing Pokemon](#part-2-implement-capturing-pokemon-1)
       - [Part 3: View other trainers' Pokemon](#part-3-view-other-trainers-pokemon-1)
@@ -158,10 +157,6 @@ Congratulations. You are a Pokemon master.
 #### General
 
 If you ever have to reset your database (for instance you destroyed all the Pokemon in the PokePortal or you messed up your migrations), run ```rake db:reset``` to drop, recreate, migrate, and reseed your database.
-
-#### Part 0: Setup PokePortal
-
-Remember, to create a database, run ```rake db:create```.
 
 #### Part 1: Create the Pokemon model
 
