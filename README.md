@@ -23,7 +23,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Project 1 - Individual project
+# Project 1 - PokePortal (an individual project)
 
 For this project, we will have high-level project instructions in the first section of this readme. If you find yourself confused about how to implement a specific step, there are more detailed instructions/hints in the second section of the readme that you can reference, however try to tackle each step yourselves first before referencing the hints.
 
