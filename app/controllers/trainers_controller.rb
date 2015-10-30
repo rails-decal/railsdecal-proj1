@@ -1,4 +1,3 @@
-class TrainersController < ApplicationController
   before_filter :authenticate_trainer!
 
   def index
@@ -8,5 +7,16 @@ class TrainersController < ApplicationController
   def show
     @trainer = Trainer.find(params[:id])
   end
+
+  def update
+  	@trainer = Trainer.find(params[:id])
+  	if @trainer.save
+  		redirect_to :trainer
+  	else
+  		render 'new'
+  	end
+  end
+
+  
 
 end
